@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    font-family: georgia;
+    list-style: none;
+}
+body{
+    background: #F0F4F9;
+}
+.navbar{
+    padding: 40px 10px !important;
+    font-family: 'Alanta-regular';
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar.sticky{
+    padding: 10px 0;
+    background: white;
+}
+
+.navbar ul li{
+    margin-right: 50px;
+    color: #002147;
+}
+.navbar .collapse ul li a{
+    font-family:"inter";
+	font-size:16px;
+	font-weight:400;
+    color: #002147 !important;
+}
+.navbar .nav-link:hover{
+    color: #FDC800 !important;
+}
+.navbar form button{
+    background-color: #FDC800;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #002147;
+    font-family:"inter";
+}
+.navbar .search{
+    width: 44px;
+    height: 42px;
+    background-color: white;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;margin-left: 10px;
+}
+
+.banner{
+    display: flex;
+    padding: 150px 10px !important;
+    background: #F0F4F9;
+    
+}
+.banner .col-md-7 h1{
+    font-family:georgian;
+	font-size:60px;
+	color:#002147;
+	margin:20px 0;
+}
+.banner .col-md-7 p{
+    font-family:"inter";
+	font-size:30px;
+	color:#002147;
+	font-weight:bold;
+	margin:20px 0;
+}
+.banner .col-md-7 button{
+	font-family:"inter";
+	font-size:16px;
+	color:black;
+	margin:10px 20px 10px 0;
+	background:white;
+	padding:10px 15px;
+	border:1px solid #BDBDBD;
+	border-radius:4px;
+}
+.banner .col-md-7 button:hover{
+    background:#FDC800;
+}
+
+.success .container{
+	background:#002147;
+	border:1px solid #707070;
+	border-radius:12px;
+	padding:15px 25px;
+}
+.success h3{
+	font-family:georgian;
+	font-size:30px;
+	color:white;
+	font-weight:bold;
+	margin-top:10%;
+}
+.success h3 span{
+	color:#FDC800;
+}
+
+.success .col-md-6 h1{
+    font-size: 60px;
+    font-family: "inter";
+    font-weight: bold;
+    color: white;
+    margin: 5% 0 5% 5%;
+}
+
+
+.super_clean{
+    padding: 50px 0 !important;
+    background: white;
+}
+.super_clean .col-md-6 h1{
+    font-family:georgian;
+	font-size:43px;
+	color:black;
+	font-weight:bold;
+	width:75%;
+	margin:20px 0;
+}
+.super_clean .col-md-6 h1 span{
+    color: #FDC800;
+}
+.super_clean .col-md-6 p{
+    font-family:"inter";
+	font-size:16px;
+	color:#212529;
+	font-weight:500;
+	margin:20px 0;
+}
+.super_clean .card1{
+    background:#F0F4F9;
+	border-radius:6px;
+}
+
+.super_clean .card1 p{
+	font-family:"inter";
+	font-size:16px;
+	color:#002147 !important;
+	font-weight:500;
+	margin:5px 0;
+}
+.super_clean .card{
+    background: white;
+    padding: 10px 10px;
+    width: 75%;
+    margin: -10% 0 0 12.5%;
+}
+.super_clean .card h3{
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.super_clean .card p{
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+.student .card1 small{
+	font-family:"inter";
+	font-size:14px;
+	color:#757575 !important;
+	font-weight:500;
+	margin:10px 0;
+}
+.numbers{
+    padding: 100px 0 !important;
+}
+.numbers .bottom{
+    padding: 50px 0;
+}
+.numbers .top p{
+    font-family:"inter";
+	font-size:16px;
+	color:#00B2B2;
+	font-weight:bold;
+	margin:20px 0;
+}
+.numbers .top h4{
+    font-family:georgian;
+	font-size:60px;
+	color:#002147;
+	font-weight:bold;
+	width:75%;
+	margin-left:10%;
+}
+
+.update{
+    padding: 50px 0 !important;
+    background: white;
+}
+.update .col-md-8{
+    margin-top: 8%;
+}
+.update .col-md-8 h1{
+    font-family:georgian;
+	font-size:48px;
+	color:#002147;
+	font-weight:bold;
+	width:75%;
+	margin:20px 0;
+}
+.update .col-md-8 p{
+    font-family:"inter";
+	font-size:16px;
+	color:#FDC800;
+	font-weight:bold;
+	margin:20px 0;
+}
+.update form input{
+    width: 400px;
+    height: 56px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    color: #BDBDBD;
+    font-size: 16px;
+    font-family: "inter";
+    padding: 0 15px;
+}
+.update form button{
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    color: #002147;
+    font-size: 16px;
+    font-family: "inter";
+    padding: 15px 25px;
+    background: #FDC800;
+    font-weight: 500;
+}
+.update form button:hover{
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+footer{
+    padding: 50px 0 0 0 !important;
+    background: #002147;
+    color: white;
+}
+
+footer img{
+    margin-bottom: 20px;
+}
+footer button{
+    font-size: 17px;
+    font-family: 'poppins';
+    padding: 10px 25px;
+    background: #24e09b;
+    border-radius: 10px;
+    border: 5px;
+    color: white;
+    margin-top: 5%;
+}
+footer .top{
+    padding: 25px 0 !important;
+}
+footer .down{
+    padding: 25px 0;
+}
+footer .down p{
+    font-size: 16px;
+    font-family: 'inter';
+    font-weight: 500;
+    padding: 5px 0 !important;
+}
+footer .down p i{
+    margin-right: 10px;
+}
+footer .col-md-2 {
+    padding-top: 1%;
+}
+footer .col-md-2 p{
+    color: white;
+    font-size: 20px;
+    font-family: "inter";
+    font-weight: bold;
+    padding: 5px 0;
+}
+footer .down li{
+    padding: 5px 0;
+}
+footer .down li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "inter";
+    font-weight: 500;
+    padding: 5px 0;
+}
+.top1{
+	background: #FDC800;
+	padding:30px 40px;
+	margin-top:20px;
+}
+.top1 .right{
+	float:right;
+	color:#002147;
+}
+.top1 .right a{
+	color: #002147;
+}
+.top1 .right i{
+	float:right;
+	margin-right:20px;
+}
+.top1 .left small{
+	font-family:"inter";
+	font-size:16px;
+	color:#002147;
+	font-weight:bold;
+    margin-left: 20px;
+}
+@media (max-width: 995px){
+    .navbar{
+        background: #F0F4F9;
+    }
+    .success .col-md-6 h1{
+        font-size: 40px;
+      
+    }
+
+}
+@media (max-width: 800px){
+    .super_clean .left{
+        margin-top: 15%;
+    }
+}
+@media (max-width: 750px){
+    .update .col-md-8 h1{
+        width: 100%;
+    }
+}
+@media (max-width: 500px){
+    .navbar a img{
+        margin-left: 10%;
+    }
+    .banner .col-md-7 button{
+        font-size:12px;
+        margin:10px 20px 30px 0;
+    }
+    .super_clean .col-md-6 h1{
+        font-size: 40px;
+        width:100%;
+    }
+    .update .col-md-8 h1{
+        font-size:38px;
+        width: 100%;
+    }
+    footer .col-md-2 p{
+        color: #FDC800;
+        font-size: 25px;
+    }
+    .top1 .right{
+        margin: 3% 0 0 25%;
+    }
+    .top1 .right i{
+        float:left;
+    }
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
